@@ -67,25 +67,31 @@ header{
     z-index: 0;
 }
 main{
+    width: 100vw;
+    height: 300vh;
+}
+#main-top{
     display: flex;
     width: 100vw;
 }
 #main-circle{
-    display: flex;
     width: 20vw;
+    height: 30vh;
     margin-right: 1rem;
 }
 #main-circle-img{
 
 }
 #main-text-box{
-    display: inline-block;
+    display: block;
     width: 50vw;
+    height: 30vh;
     justify-content: center;
-    margin-top: .5rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
 }
 #main-text{
-    width: 100vw;
+    width: 50vw;
     font-family: 'Roboto', sans-serif;    font-style: normal;
     font-size: 32px;
     line-height: 42px;
@@ -94,4 +100,20 @@ main{
 }
 .bolder-text{
     font-weight: bolder;
+}
+#main-subtext-box{
+    display: block;
+    width: 80vw;
+    height: 30vh;
+    margin: 0 2rem 0 2rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+#main-subtext-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 35px;
+    color: #495450;
 }
