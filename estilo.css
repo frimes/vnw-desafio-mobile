@@ -68,7 +68,7 @@ header{
 }
 main{
     width: 100vw;
-    height: 300vh;
+    height: 600vh;
 }
 #main-top{
     display: flex;
@@ -134,8 +134,7 @@ main{
     color: white;
     border-radius: 45px;
 
-    box-shadow: 0 5px 5px rgba(0,0,0,0.25);    border-bottom: none;
-    
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);    border-bottom: none;  
 }
 #main-middle-text-box{
     display: block;
@@ -154,39 +153,111 @@ main{
     line-height: 42px;
     text-align: center;
     color: black;
-
 }
 #main-circle-light{
 
 }
 #main-circle-light-img{
+    position: absolute;
+    left: 0;
+    top: 53rem;
 
+    z-index: -1;
 }
 .card-box{
     display: flex;
+
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
     justify-content: center;
-    margin: 0;
-
-background-color: silver;
-
 }
 .card{
-    width: 90vw;
-    height: 40vh;
+    width: 88vw;
+    height: 33vh;
     color: silver;
+    background-color: white;
     border-radius: 45px;
 
     box-shadow: 0 5px 5px rgba(0,0,0,0.25);    border-bottom: none;
-    
-    z-index: 0;    
 }
-.card-text-title{
-    display: flex;
+*.card-text-title{
+    margin: 2.5rem 1rem .90rem 1rem;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #495450;
 
 }
 .card-text{
-    
-    z-index: 0;
+    margin: 0rem 1rem 2rem 1rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #495450;
+}
+#lm-bt-box{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100vw;
+
+}
+#lm-bt{
+    background: #2B6FDE;
+    font-size: larger;
+}
+#main-bottom-text-box{
+    display: block;
+    width: 80vw;
+    height: 25vh;
+    margin: 5rem 2rem 5rem 2rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+#main-bottom-text{
+    width: 80vw;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+.main-bottom-numbers{
+    font-family: 'Roboto', sans-serif;    font-style: normal;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: bolder;
+    text-align: center;
+
+    color: #3E6D9B;
+}
+#main-bottom-text-minor-box{
+    display: block;
+    width: 80vw;
+    height: 25vh;
+    margin: 7rem 2rem 5rem 2rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+#main-bottom-text-minor{
+    width: 80vw;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+}
+.space{
+    display: block;
+    margin: 3rem 0 3rem 0;
 }
