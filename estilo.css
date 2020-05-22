@@ -70,6 +70,9 @@ main{
     width: 100vw;
     height: 600vh;
 }
+#sec-one{
+    background-color: silver;
+}
 #main-top{
     display: flex;
     width: 100vw;
@@ -117,6 +120,9 @@ main{
     line-height: 35px;
     color: #495450;
 }
+#sec-two{
+    background-color: silver;
+}
 #gs-bt-box{
     display: flex;
     justify-content: center;
@@ -140,7 +146,7 @@ main{
     display: block;
     width: 80vw;
     height: 25vh;
-    margin: 5rem 2rem 5rem 2rem;
+    margin: 5rem 2rem 0rem 2rem;
     justify-content: center;
     align-items: flex-end;
 }
@@ -164,11 +170,14 @@ main{
 
     z-index: -1;
 }
+#sec-three{
+    background-color: silver;
+}
 .card-box{
     display: flex;
 
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
     width: 100vw;
     height: 30vh;
     justify-content: center;
@@ -202,6 +211,9 @@ main{
     font-size: 16px;
     line-height: 30px;
     color: #495450;
+}
+#sec-four{
+    background-color: silver;
 }
 #lm-bt-box{
     display: flex;
@@ -260,4 +272,52 @@ main{
 .space{
     display: block;
     margin: 3rem 0 3rem 0;
+}
+#sec-five{
+    background-color: silver;
+}
+#text-pre-img-card{
+
+}
+.card-with-img-box{
+    display: flex;
+
+    margin-top: 28rem;
+    margin-bottom: 5rem;
+    width: 100vw;
+    height: 30vh;
+    justify-content: center;
+}
+.card-with-img{
+    width: 88vw;
+    height: 33vh;
+    color: silver;
+    background-color: white;
+    border-radius: 45px;
+
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);    border-bottom: none;
+}
+*.card-with-img-text-title{
+    margin: 2.5rem 1rem .90rem 1rem;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #495450;
+
+}
+.card-with-img-text{
+    margin: 0rem 1rem 2rem 1rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #495450;
+}
+.card-with-img-link{
+  
 }
