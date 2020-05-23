@@ -14,8 +14,8 @@ header{
 #header-brand{
     display: flex;
     width: 42vw;
-    margin-top: 3rem;
-    margin-left: 1.5rem;
+    margin-top: 3.5rem;
+    margin-left: 2.5rem;
     margin-right: 1rem;
 }
 #header-brand-init{
@@ -71,7 +71,10 @@ main{
     height: 600vh;
 }
 #sec-one{
-    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: none;
 }
 #main-top{
     display: flex;
@@ -121,7 +124,10 @@ main{
     color: #495450;
 }
 #sec-two{
-    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: none;
 }
 #gs-bt-box{
     display: flex;
@@ -146,7 +152,7 @@ main{
     display: block;
     width: 80vw;
     height: 25vh;
-    margin: 5rem 2rem 0rem 2rem;
+    margin: 5rem 2rem 5rem 2rem;
     justify-content: center;
     align-items: flex-end;
 }
@@ -171,13 +177,16 @@ main{
     z-index: -1;
 }
 #sec-three{
-    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: none;
 }
 .card-box{
     display: flex;
 
-    margin-top: 2rem;
-    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
     width: 100vw;
     height: 30vh;
     justify-content: center;
@@ -213,26 +222,25 @@ main{
     color: #495450;
 }
 #sec-four{
-    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 150vh;
 }
 #lm-bt-box{
     display: flex;
     justify-content: center;
     align-self: center;
     width: 100vw;
-
+    margin-top: 3rem;
 }
 #lm-bt{
     background: #2B6FDE;
     font-size: larger;
 }
 #main-bottom-text-box{
-    display: block;
-    width: 80vw;
-    height: 25vh;
-    margin: 5rem 2rem 5rem 2rem;
-    justify-content: center;
-    align-items: flex-end;
+    width: 100vw;
+    margin: 5rem 2rem 0 2rem;
 }
 #main-bottom-text{
     width: 80vw;
@@ -253,7 +261,6 @@ main{
     color: #3E6D9B;
 }
 #main-bottom-text-minor-box{
-    display: block;
     width: 80vw;
     height: 25vh;
     margin: 7rem 2rem 5rem 2rem;
@@ -274,39 +281,61 @@ main{
     margin: 3rem 0 3rem 0;
 }
 #sec-five{
-    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: none;
+}
+#text-pre-img-card-box{
+    display: block;
+    width: 80vw;
+    height: 25vh;
+    margin: 5rem 2rem 5rem 2rem;
+    justify-content: center;
+    align-items: flex-end;
 }
 #text-pre-img-card{
-
+    width: 80vw;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: black;
 }
 .card-with-img-box{
     display: flex;
-
-    margin-top: 28rem;
-    margin-bottom: 5rem;
     width: 100vw;
-    height: 30vh;
+    margin-bottom: 8rem;
     justify-content: center;
 }
 .card-with-img{
-    width: 88vw;
-    height: 33vh;
+    display: flex;
+    width: 90vw;
+    height: 85vh;
+    flex-direction: column;
+    justify-content: start;
     color: silver;
     background-color: white;
     border-radius: 45px;
-
     box-shadow: 0 5px 5px rgba(0,0,0,0.25);    border-bottom: none;
 }
+.card-with-img-fig{
+    position: relative;
+    left: -4px;
+    top: -2px;
+    width: 92vw;
+}
 *.card-with-img-text-title{
-    margin: 2.5rem 1rem .90rem 1rem;
-    
+    margin: 1.5rem 1rem .90rem 1rem;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    text-align: left;
+    font-size: 16px;
     line-height: 30px;
     color: #495450;
-
 }
 .card-with-img-text{
     margin: 0rem 1rem 2rem 1rem;
@@ -319,5 +348,24 @@ main{
     color: #495450;
 }
 .card-with-img-link{
-  
+    margin: 0rem 1rem 1rem 15rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1592E6;
+    text-decoration: none;
 }
+#main-circle-dark{
+
+}
+#main-circle-dark-img{
+    position: absolute;
+    width: 98vw;
+    top: 224rem;
+
+    z-index: -1;
+}
+
+
